@@ -14,6 +14,7 @@ contract FallbackTest is Test {
         /////////////////
         // LEVEL SETUP //
         /////////////////
+
         vm.prank(address(0));
         Fallback ethernautFallback = new Fallback();
 
@@ -41,6 +42,7 @@ contract FallbackTest is Test {
         //////////////////////
         // LEVEL SUBMISSION //
         //////////////////////
+
         vm.stopPrank();
     }
 }
